@@ -204,7 +204,7 @@ function prettypress_thetitle( $title ) {
 			return $title;
 			
 		} else {
-			return '<span data-rel="title">' . $title . '</span>';
+			return $title;
 		}
 	} else {
 		return $title;
